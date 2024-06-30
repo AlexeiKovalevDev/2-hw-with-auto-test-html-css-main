@@ -45,7 +45,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    min-width: 715px;
+    width: 715px;
 }
 
 
@@ -135,7 +135,7 @@ th, td {
     font-weight: 700;
     font-size: 14px;
     text-align: center; 
-    padding: 10px 0;   
+    padding: 12px 15px;   
 }
 
 footer {
