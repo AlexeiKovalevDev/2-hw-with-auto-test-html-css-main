@@ -45,7 +45,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
 }
 
 
@@ -77,7 +77,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;    
     
@@ -87,7 +87,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px; 
-    padding-left: 20px;   
+    padding: 0px 20px;  
 }
 
 .label {
@@ -141,7 +141,7 @@ th, td {
 footer {
     /* Стили для футера */
     background: rgba(163, 167, 255, 0.3);
-    padding: 25px 0;
+    padding: 26px 0;
 }
 
 .footer-link {
